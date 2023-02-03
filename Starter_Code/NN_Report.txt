@@ -1,0 +1,30 @@
+Overview of the analysis: Explain the purpose of this analysis.
+	-The purpose of this analysis was to establish the best model that could be used to predict successful ventures that are funded by the Alphabet Soup Charity. 
+
+
+Results: Using bulleted lists and images to support your answers, address the following questions:
+
+Data Preprocessing
+
+What variable(s) are the target(s) for your model?
+	-Target variable was the is_successful column
+What variable(s) are the features for your model?
+	-Features included all of the other columns except for EIN and Name.
+What variable(s) should be removed from the input data because they are neither targets nor features?
+	-EIN and Name
+
+
+Compiling, Training, and Evaluating the Model
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+	-50 neurons, 3 layers, 2 activation functions
+		These numbers/amounts make the model more efficient while maintaining accuracy.
+Were you able to achieve the target model performance?
+	-Yes
+What steps did you take in your attempts to increase model performance?
+	-Multiple optimization attempts in order to find the best performing model/params.
+
+
+Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+	-The overall results gave a highly efficient NN Model that returns promising ventures at a high accuracy. 
+	-A different model could use more data in order to give even more accurate outputs/predictions, might also use more layers to be more efficient.
